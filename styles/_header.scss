@@ -1,0 +1,68 @@
+@import 'fonts';
+
+
+header {
+    max-width: 870px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu-checkbox {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 24px;
+    display: none;
+
+    &:hover {
+        color: #acabab;
+    }
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+        margin-left: 10px;
+    }
+
+    &__li {
+        list-style: none;
+
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $main-color;
+        font-family: $main-font;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+
+        &:hover {
+            color: #acabab;
+        }
+    }
+}
+
+
+.logo {
+    font-family: $logo-font;
+    color: $main-color;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.25px;
+    line-height: 36px;
+}

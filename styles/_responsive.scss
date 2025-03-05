@@ -1,0 +1,84 @@
+/* MENU */
+@media (max-width: 600px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 70%;
+        border-top: 1px solid #d7d7d7;
+        border-bottom: 1px solid #d7d7d7;
+    }
+
+    .nav__li {
+        padding: 10px;
+    }
+
+    .menu-checkbox:checked+.menu-icon+.nav {
+        display: block;
+    }
+}
+
+/* MENU */
+
+
+
+/* (Typical Device Breakpoints from W3Schools.com) */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main__title {
+        font-size: 36px;
+    }
+
+    .main__paragraph {
+        font-size: 15px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main__title {
+        font-size: 52px;
+    }
+
+    .main__paragraph {
+        font-size: 17px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main__title {
+        font-size: 72px;
+    }
+
+    .main__paragraph {
+        font-size: 22px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main__title {
+        font-size: 80px;
+    }
+
+    .main__paragraph {
+        font-size: 22px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main__title {
+        font-size: 90px;
+    }
+
+    .main__paragraph {
+        font-size: 22px;
+    }
+}
