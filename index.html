@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8ec89c4bb3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Responsive Web Design</title>
 </head>
+
 <body>
+    <header>
+        <h4 class="logo">Head.</h4>
+        <input type="checkbox" id="menu" class="menu-checkbox">
+        <label for="menu" class="menu-icon"><i class="fa-solid fa-ellipsis"></i></label>
     
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__li"><a class="nav__link" href="#">Works</a></li>
+                <li class="nav__li"><a class="nav__link" href="#">Services</a></li>
+                <li class="nav__li"><a class="nav__link" href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main__card">
+        <h1 class="main__title">Patagonia</h1>
+        <p class="main__paragraph">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
+            Donec viverra eleifend lacus, vitae ullamcor.</p>
+        </div>
+        <div class="images">
+            <picture>
+                <source media="(max-width: 600px)" srcset="./images/image-mobile.jpg">
+                <source media="(max-width: 1000px)" srcset="./images/image-tablet.jpg">
+                <source media="(min-width: 1001px)" srcset="./images/image-desktop.jpg">
+                <img src="images/image-mobile.jpg alt="Horses">
+            </picture>
+        </div>
+    </main>
 </body>
+
 </html>
